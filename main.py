@@ -1,8 +1,8 @@
 import requests
 import concurrent.futures
 
-# URLs for the initial GET request and the target POST request
-get_url = "https://www.prepladder.com"  # Replace with the actual URL if different
+
+get_url = "https://www.prepladder.com"  
 post_url = "https://cognito-idp.ap-south-1.amazonaws.com/"
 session = requests.Session()
 initial_response = session.get(get_url, headers={"User-Agent": "Mozilla/5.0"})
