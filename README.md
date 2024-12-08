@@ -5,4 +5,4 @@ cd sender
 
 pip3 install -r requierments.txt
 
-python3 sender.py
+python3 main.py
